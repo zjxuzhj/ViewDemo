@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TabButton">
+        <attr name="title" format="string" /><!-- name:属性的名称,format:类型 -->
+        <attr name="checked_color" format="color" />
+        <attr name="checked_text_color" format="color" />
+        <attr name="unchecked_text_color" format="color" />
+        <attr name="background_color" format="color" />
+    </declare-styleable>
+</resources>

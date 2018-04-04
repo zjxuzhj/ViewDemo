@@ -5,18 +5,53 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#fff"
     tools:context="com.zhj.viewdemo.MainActivity">
+
     <ImageView
+        android:id="@+id/imageView"
         android:layout_width="match_parent"
-        android:src="@mipmap/img_1"
-        android:scaleType="fitXY"
         android:layout_height="100dp"
-        android:id="@+id/imageView"/>
+        android:scaleType="fitXY"
+        android:src="@mipmap/img_1"/>
 
-    <com.zhj.viewdemo.TabButton
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:layout_marginTop="8dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView">
 
-    </com.zhj.viewdemo.TabButton>
+        <com.zhj.viewdemo.TabButton
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            app:background_color="#9f000000"
+            app:checked_color="#fff"
+            app:checked_text_color="#000"
+            app:title="charter"
+            app:unchecked_text_color="#fff"
+            />
+
+        <com.zhj.viewdemo.TabButton
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            app:background_color="#9f000000"
+            app:checked_color="#fff"
+            app:checked_text_color="#000"
+            app:title="charter"
+            app:unchecked_text_color="#fff"
+            />
+
+        <com.zhj.viewdemo.TabButton
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            app:background_color="#9f000000"
+            app:checked_color="#fff"
+            app:checked_text_color="#000"
+            app:title="charter"
+            app:unchecked_text_color="#fff"
+            />
+    </LinearLayout>
+
 </RelativeLayout>
