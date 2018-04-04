@@ -21,8 +21,8 @@
         android:layout_alignBottom="@+id/imageView">
 
         <com.zhj.viewdemo.TabButton
-            android:layout_width="0dp"
-            android:layout_height="70dp"
+            android:layout_width="10dp"
+            android:layout_height="60dp"
             android:layout_weight="1"
             app:background_color="#9f000000"
             app:checked_color="#fff"
@@ -32,8 +32,8 @@
             />
 
         <com.zhj.viewdemo.TabButton
-            android:layout_width="0dp"
-            android:layout_height="70dp"
+            android:layout_width="10dp"
+            android:layout_height="60dp"
             android:layout_weight="1"
             app:background_color="#9f000000"
             app:checked_color="#fff"
@@ -43,8 +43,8 @@
             />
 
         <com.zhj.viewdemo.TabButton
-            android:layout_width="0dp"
-            android:layout_height="70dp"
+            android:layout_width="10dp"
+            android:layout_height="60dp"
             android:layout_weight="1"
             app:background_color="#9f000000"
             app:checked_color="#fff"
