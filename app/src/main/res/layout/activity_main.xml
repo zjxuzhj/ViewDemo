@@ -16,11 +16,13 @@
         android:src="@mipmap/img_1"/>
 
     <LinearLayout
+        android:id="@+id/ll_tab"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/imageView">
 
         <com.zhj.viewdemo.TabButton
+            android:id="@+id/tab1"
             android:layout_width="10dp"
             android:layout_height="60dp"
             android:layout_weight="1"
@@ -32,6 +34,7 @@
             />
 
         <com.zhj.viewdemo.TabButton
+            android:id="@+id/tab2"
             android:layout_width="10dp"
             android:layout_height="60dp"
             android:layout_weight="1"
@@ -43,6 +46,7 @@
             />
 
         <com.zhj.viewdemo.TabButton
+            android:id="@+id/tab3"
             android:layout_width="10dp"
             android:layout_height="60dp"
             android:layout_weight="1"
@@ -53,5 +57,10 @@
             app:unchecked_text_color="#fff"
             />
     </LinearLayout>
-
+    <FrameLayout
+        android:layout_below="@+id/ll_tab"
+        android:id="@+id/ll_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"/>
 </RelativeLayout>
