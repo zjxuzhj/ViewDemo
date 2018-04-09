@@ -27,6 +27,6 @@ public class Fragment2 extends Fragment {
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
         TextView textView = (TextView) mView.findViewById(R.id.tv_title);
-        textView.setText("fragment2");
+        textView.setText("-------------------fragment2------------------");
     }
 }
